@@ -13,7 +13,7 @@ from sklearn import metrics
 df = pd.read_csv("credit access.csv", encoding='latin-1')
 
 st.title("Công nghệ số")
-st.write("## Dự báo khả năng tiếp cận vốn tín dụng của nông hộ")
+st.write("## Dự báo khả năng ")
 
 uploaded_file = st.file_uploader("Choose a file", type=['csv'])
 if uploaded_file is not None:
