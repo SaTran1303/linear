@@ -12,7 +12,7 @@ from sklearn import metrics
 
 df = pd.read_csv("credit access.csv", encoding='latin-1')
 
-st.title("Hồi quy tuyến tính")
+st.title("Công nghệ số")
 st.write("## Dự báo khả năng tiếp cận vốn tín dụng của nông hộ")
 
 uploaded_file = st.file_uploader("Choose a file", type=['csv'])
